@@ -1,0 +1,31 @@
+# Ignore .env
+.env
+
+# Ignore all bytecode-compiled files
+*.pyc
+*.pyo
+
+# Ignore virtual environment directories
+venv/
+env/
+.virtualenv/
+.venv/
+
+# Ignore all __pycache__ directories
+__pycache__/
+
+# Ignore other common directories
+.idea/
+.DS_Store
+*.log
+
+# Ignore Jupyter notebook files
+.ipynb
+.ipynb_checkpoints
+
+# ignore tests
+tests/
+scripts/
+
+# ignore shell script
+*.sh
